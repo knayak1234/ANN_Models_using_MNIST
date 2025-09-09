@@ -3,7 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # Load the data
-data = pd.read_csv("/Users/knayak/AI_Startup/Learn_Software/DeepLearning/first_ANN_model/mnist_test.csv")
+data = pd.read_csv("mnist_test.csv")
 print(f"Original data shape: {data.shape}")
 
 # Convert to numpy array
